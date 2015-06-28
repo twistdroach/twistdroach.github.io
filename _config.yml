@@ -16,14 +16,14 @@ defaults:
 
 description: Stylish Jekyll Theme
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
+  name: twistdroach
+  email: rowitsch@yahoo.com
+  github: twistdroach
+  twitter: twistdroach
+#  pinterest: asd123
   linkedin: asd123
   bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  email_md5: b867bfbbfd4304e2dd13f208cec1aa49
 
 rss_path: feed.xml
 categories_path: categories.html
