@@ -13,7 +13,7 @@ cpu_threads:
 cpu_model: MOS Technology 6502
 memory: ??
 storage:
-thumbnail: assets/media/computers/televideo_910/IMG_8917_preview.JPG
+thumbnail: assets/media/computers/televideo_910/televideo_910_front.jpg
 ---
 
 bla bla bla some text here
