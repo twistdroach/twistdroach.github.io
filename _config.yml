@@ -40,6 +40,7 @@ BASE_PATH:
 collections:
   computer_entries:
     sort_by: introduction_date
+    output: true
 
 plugins:
   - jekyll-paginate

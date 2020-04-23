@@ -14,6 +14,9 @@ cpu_model: MOS Technology 6502
 memory: ??
 storage:
 thumbnail: assets/media/computers/televideo_910/televideo_910_front.jpg
+details: true
+layout: comp_details
+title: The TeleVideo 910 Serial Terminal
 ---
 
 bla bla bla some text here
