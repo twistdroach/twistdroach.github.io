@@ -1,9 +1,35 @@
 
 
 <div class="container">
-    {% if page.images %}
     <div class="row">
-      <div class="col-md-10 col-md-offset-1">
+        <div class="col-sm-10">
+            {% if page.summary %}
+            <h4>Summary</h4>
+            <div class="well">{{ page.summary }}</div>
+            {% endif %}
+            <h4>Basic Stats</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                      <th>Processor</th>
+                      <th>Memory</th>
+                      <th>Storage</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>asdf</td>
+                          <td>asdf</td>
+                          <td>asdf</td>
+                      </tr>
+                  </tbody>
+            </table>
+        </div>
+    </div>
+    {% if page.images %}
+    <h4>Images</h4>
+    <div class="row">
+      <div class="col-sm-10">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -26,12 +52,8 @@
             </div>
 
             <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="fa fa-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="fa fa-chevron-right"></span>
-            </a>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"></a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"></a>
         </div> <!-- Carousel -->
         </div>
     </div>

@@ -13,8 +13,8 @@ cpu_threads:
 cpu_model: MOS Technology 6502
 memory: ??
 storage:
-thumbnail: televideo_910_front.jpg
 details: true
+thumbnail: televideo_910_front.jpg
 layout: comp_details
 title: The TeleVideo 910 Serial Terminal
 summary: Simple terminal capable of 19.2kbps communication while emulating some of the common terminals of the day.
