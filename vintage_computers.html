@@ -30,7 +30,8 @@ tagline:
         the pre-historic 80's systems, the *nix workstations of the late 80's through the 90's, and some rackmount server hardware 
         from the 2000's.</p>
       <ul class="timeline">
-        {% for post in site.computer_entries %}
+        {% assign sorted = site.computer_entries | sort: 'introduction_date' %}
+        {% for post in sorted %}
         <li{% cycle ' class=timeline-inverted', '' %}>
         <div class="timeline-image">
           {% if post.details == true %}
