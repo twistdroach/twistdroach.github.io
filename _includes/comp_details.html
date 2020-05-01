@@ -9,20 +9,24 @@
             {% endif %}
             <h4>Basic Stats</h4>
             <table class="table">
-                <thead>
                     <tr>
                       <th>Processor</th>
+                      <td>{{ page.cpu_model }}</td>
                       <th>Memory</th>
-                      <th>Storage</th>
+                      <td>{{ page.memory }}</td>
                     </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td>asdf</td>
-                          <td>asdf</td>
-                          <td>asdf</td>
-                      </tr>
-                  </tbody>
+                    <tr>
+                          <th>Speed</th>
+                          <td>{{ page.cpu_speed }}</td>
+                          <th>Storage</th>
+                          <td>{{ page.storage }}</td>
+                    </tr>
+                    <tr>
+                        <th>Threads</th>
+                        <td>{{ page.cpu_threads }}</td>
+                        <th>Operating System</th>
+                        <td>{{ page.operating_system }}</td>
+                  </tr>
             </table>
         </div>
     </div>

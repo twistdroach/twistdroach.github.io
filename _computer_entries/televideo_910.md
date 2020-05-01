@@ -21,4 +21,3 @@ summary: Simple terminal capable of 19.2kbps communication while emulating some 
 images: [ televideo_910_front.jpg, televideo_910_side.jpg, televideo_910_rear.jpg ]
 ---
 
-bla bla bla some text here

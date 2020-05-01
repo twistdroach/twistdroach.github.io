@@ -4,7 +4,7 @@ model: Ultra 30
 type: unix_workstation
 introduction_date: 1997/??
 end_of_sale_date: unknown
-operating_system: Solaris
+operating_system: Solaris 9
 typical_operating_system: Solaris
 cpu_speed: 300MHz
 cpu_cores: 1

@@ -3,10 +3,32 @@ layout: page
 tagline:
 ---
 
-<h4>Great computers never die</h4>
+
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
+      <h4>Vintage Computing</h4>
+      <p>The first computer that was available to me was an Apple IIe my parents bought used in the early 90's.  It was on this 
+        device that I learned basic and machine language programming.  I never had an assembler in the "old" days, so any assembly 
+        I wrote back then had to be hand assembled.  I later acquired some old IBM compatible machines that my father's company were 
+        throwing out.  I began using MS-DOS & Windows 3.1, but didn't have access to much in the way of dev tools (I missed the 
+        Borland C++ era).  It was around this time that I downloaded a few disk images for 
+        <a href="http://micheleandreoli.org/public/Software/mulinux/">muLinux</a>, though I didn't have a machine capable of 
+        running it.  I was able to boot it up (non-destructively) on my dad's 486 laptop from work.  This was my first taste of 
+        linux, but I wasn't able to do much with it at the time (and I don't think I was successfull in downloading the compiler 
+        packages - a single 1.4M disk image could take multiple days to download back then).</p>
+      <p>A few years later, I visited my uncle who worked at a University.  He gave me logins to their *nix systems, which was great 
+        as at the time my highschool was lackadasical about their computer security, so I could ssh (probably telnet back then - Gasp!) 
+        from our school computers via the internet.  I spent most of my free time in study halls playing with these machines (these were 
+        the days of using pine as a mail client in your terminal).  It was an ecclectic group of machines from what I remember, having 
+        at least a Sun SparcStation & NeXT workstation in the mix.</p>
+      <p>In college I worked as a sys admin for the ECE department.  This was just as all of the proprietary unices were dieing out & 
+        being replaced by Linux.  We had Solaris & Digital Unix systems, as well as a swath of RedHat Linux systems (before it was 
+        RHEL).  Dumpster diving was great during this era - I found DEC, HP-UX, & Sun Systems, sometimes complete with install 
+        media.  I still have some of them today.</p>
+      <p>This is a not quite exhaustive catalog of the systems I have collected over the years.  There is roughly three eras here, 
+        the pre-historic 80's systems, the *nix workstations of the late 80's through the 90's, and some rackmount server hardware 
+        from the 2000's.</p>
       <ul class="timeline">
         {% for post in site.computer_entries %}
         <li{% cycle ' class=timeline-inverted', '' %}>
