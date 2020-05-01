@@ -6,11 +6,11 @@ introduction_date: 1987/03
 end_of_sale_date: 1990/10
 operating_system: System 7.0
 typical_operating_system: 
-cpu_speed: 7.8MHz
+cpu_speed: 25MHz (7.8MHz stock)
 cpu_cores:
 cpu_count: 1
 cpu_threads:
-cpu_model: Motorola 68000
+cpu_model: Motorola 68030 (68000 stock)
 memory: 4MB
 storage: 2x800KB floppies & 20MB SCSI HD
 
