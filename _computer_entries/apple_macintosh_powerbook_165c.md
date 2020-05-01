@@ -11,7 +11,7 @@ cpu_cores: 1
 cpu_count: 1
 cpu_threads: 1
 cpu_model: Motorola MC68030
-memory: 4MB?
+memory: 4MB
 storage:
 ---
 
