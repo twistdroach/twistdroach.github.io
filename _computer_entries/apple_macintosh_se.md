@@ -25,7 +25,9 @@ images: [
     apple_macintosh_se_front_risk.jpg,
     apple_macintosh_se_front_shutdown.jpg,
     apple_macintosh_se_front_poweroff.jpg,
-    apple_macintosh_se_rear.jpg
+    apple_macintosh_se_rear.jpg,
+    apple_macintosh_se_transwarp_1.jpg,
+    apple_macintosh_se_transwarp_2.jpg
 ]
 ---
 
