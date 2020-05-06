@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CNC Router Testing
-categories: [CNC]
+tags: [CNC]
 description: It's alive!  Got the cnc router to draw with a pen.
 youtubeId: 0AfhBB9tsAk
 ---
