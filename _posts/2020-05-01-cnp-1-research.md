@@ -2,7 +2,7 @@
 layout: post
 title: CNP-1 - Research
 tags: [Homebrew, CNP-1]
-description: The CNP-1 is a homebrew 65c02 based microcomputer hand-wired on a breadboard.  Here I talk about the research and exploration done to prepare for this adventure.
+fullview: true
 ---
 
 The 6502 was used in many of the 80's microcomputers and was the processor first for which I ever learned assembly.  This made it a natural choice for my first homebrew computer.  Like starting any project like this, the first step is usually research.
